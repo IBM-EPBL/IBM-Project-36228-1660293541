@@ -1,0 +1,13 @@
+import random
+a=random.sample(range(30,60),1)
+print(a)
+b=random.sample(range(30,50),1)
+print(b)
+if(a>=[50]):
+   print("temperature is high")
+else:
+    print("normal")
+if(a>=[45]):
+    print("humidity is high")
+else:
+    print("normal")
